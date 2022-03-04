@@ -25,6 +25,7 @@ if(isset($_POST['button_create'])){
             $_SESSION['hasil'] = false;
             $_SESSION['pesan'] = "Gagal Simpan Data";
         }
+        echo "<meta http-equiv='refresh' content='0;url=?page=lokasiread'>";
     }
 
 }
